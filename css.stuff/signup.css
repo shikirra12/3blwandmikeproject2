@@ -1,0 +1,31 @@
+#h1_h4 {
+color: grey;
+  text-align: center;
+}
+
+#login_group {
+padding-top: 70px;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+#form-group {
+  padding-bottom: 15px;
+}
+
+#pass {
+  padding-bottom: 15px;
+
+}
+
+#signup {
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+
+}
+.sign_up_button {
+  background-color: limegreen;
+}
