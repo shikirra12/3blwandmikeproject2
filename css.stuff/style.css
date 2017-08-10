@@ -1,0 +1,344 @@
+/*Login in*/
+#h1_h42 {
+color: grey;
+  text-align: center;
+  font-family: sans-serif;
+  font: 40px;
+}
+
+#login_group2 {
+padding-top: 70px;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+#form-group2 {
+  padding-bottom: 15px;
+
+}
+#bodyID  {
+background: radial-gradient(circle, rgb(209, 252, 153), white);
+}
+
+
+#pass2 {
+  padding-bottom: 15px;
+
+}
+
+#signup2 {
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+
+
+}
+.login_button2 {
+  background-color: rgb(70, 224, 215);
+  color: gray;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 200px;
+  border: 2px solid gray;
+  height: 40px;
+
+}
+
+.login_button2:hover{
+  background-color: rgb(125, 201, 98);
+  color: white;
+}
+#h1_h42 {
+  margin-top: 15%;
+  margin-bottom:0%;
+
+}
+h1 {
+  font-size: 50px;
+
+}
+#sign_up_button2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color:gray;
+  border: 2px solid gray;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#sign_up_button2:hover {
+  background-color: rgb(125, 201, 98);
+  color: white;
+}
+
+
+/*Sign Up */
+#signupBody {
+  background: radial-gradient(circle, rgb(205, 164, 242),  rgb(193, 194, 195));
+
+}
+#h1_h4 {
+color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#login_group {
+padding-top: 70px;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+#form-group {
+  padding-bottom: 15px;
+}
+
+#pass {
+  padding-bottom: 15px;
+
+}
+
+#signup {
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+
+}
+.sign_up_button {
+  background-color: rgb(186, 185, 187);
+  width: 200px;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px;
+  border-color: 2px solid gray;
+  color: gray;
+}
+.sign_up_button:hover {
+  background-color: rgb(144, 90, 150) ;
+  color: white;
+}
+.login_button{
+  width:100px;
+  border-radius: 5px;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+background-color: rgb(201, 141, 230);
+border-color: 2px solid white;
+}
+.login_button:hover {
+  background-color: white;
+  color: gray;
+}
+
+
+
+/*Event view*/
+
+* {
+  /*border: 1px solid red;*/
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+}
+.navigation{
+  background-color: rgb(211, 211, 211);
+  font-size: 14pt;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.navigation a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(42, 42, 42);
+  padding: 10px;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+div .company {
+  float: left;
+  color: rgb(42, 42, 42);
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.eventName{
+  width: 800px;
+}
+h1 {
+  text-align: center;
+}
+.eventInfo{
+  margin-top: 100px;
+}
+h3 {
+  font-weight: bolder;
+}
+.about {
+  margin: 30px;
+}
+.verticleLine {
+  border: 1px solid rgb(42, 42, 42);
+}
+h2 {
+  text-align: center;
+}
+.userBoxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 485px;
+}
+span {
+  border: 1px black solid;
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 5px;
+}
+/* Event List CSS */
+nav {
+  background-color: rgb(204, 159, 236);
+  border: 2px solid gray;
+  width: 100%;
+  height: 60px;
+  padding: 1%;
+  margin: 0%;
+}
+#navText {
+  font-size:25px;
+  font-family: sans-serif;
+  color: gray;
+  font-style: normal;
+  font-weight: lighter;
+display: flex;
+justify-content: flex-start;
+
+}
+#container1 , #container2, #container3 , #container4  {
+display: block;
+border: 1px solid gray;
+height: 100px;
+width: 25%;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left:18%;
+border-radius: 5px;
+float: left;
+box-shadow: 5px 5px 5px #888888
+}
+#container5, #container6, #container7, #container8 {
+  display: block;
+  border: 1px solid gray;
+  height: 100px;
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left:18%;
+  border-radius: 5px;
+  float: right;
+box-shadow: 5px 5px 5px #888888
+}
+#container7,  #container6 {
+  float: left;
+}
+#container5, #container8 {
+  float: left;
+}
+#rsvp1, #rsvp2 , #rsvp3, #rsvp4, #rsvp5, #rsvp6, #rsvp7, #rsvp8{
+  border: 1px solid black;
+  height: 50px;
+background-color: rgb(203, 124, 227);
+font-family: sans-serif;
+}
+#info1, #info2, #info3, #info4, #info5 ,  #info7, #info8, #info6{
+  border: 1px solid black;
+  height: 50px;
+background-color: rgb(113, 195, 226);
+color: white;
+font-family: sans-serif;
+}
+#containers {
+  border: 1px solid black;
+  width: 20%;
+  display: flex;
+flex-direction: column;
+
+}
+#textContainer1 , #textContainer2, #textContainer3, #textContainer4,  #textContainer5, #textContainer6, #textContainer7, #textContainer8 {
+  border: 1px solid gray ;
+  background-color: white;;
+  height: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#container1, #container2, #container3, #container4, #container5, #container6, #container7, #container8 {
+  display: flex;
+  flex-direction: row-reverse;
+  }
+  body{
+margin: 0%;
+  }
+#meetups {
+  font-size: 20px;
+  color: gray;
+  font-family: sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  float: left;
+}
+#navButton {
+  /*border: 5px solid gray;*/
+  padding:  10px;
+  margin: 10px;
+  width: 20%;
+  /*border-radius: 5px;*/
+  display: inline;
+
+}
+#navButt {
+  /*border: 5px solid gray;*/
+padding:  2px;
+  margin:10px;
+  width: 15%;
+  /*border-radius: 5px;*/
+  display: inline;
+}
+#bothButtons {
+justify-content: flex-end;*/
+display: inline;
+float: right;
+height: 20px;
+}
+#meetups h1 {
+  display: inline;
+}
+#bothButtons a {
+  display: inline;
+}
+#bothButtons button {
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: gray;
+
+}
+#bothButtons button:hover {
+  background-color:  gray;
+  color: white;
+}
+#tori  {
+  background-color: rgb(200, 195, 199);
+}
